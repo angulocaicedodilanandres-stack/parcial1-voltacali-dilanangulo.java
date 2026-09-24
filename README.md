@@ -17,7 +17,7 @@ resultados se calculan en memoria mediante clases, arreglos y `Vector`.
 - Conectores buscados: `N mod 3 + 1 = 2`
 - Resultado del caso: `ABB` y `Delta`, ambos con dos conectores.
 
-El código también contiene las implementación de las otras tres rutas para
+El código también contiene las implementaciones de las otras tres rutas para
 que el prototipo pueda reutilizarse si se cambia `NUMERO_CEDULA` en
 `src/main/java/co/edu/usc/voltacali/App.java`.
 
@@ -38,9 +38,9 @@ Con `N = 88`, `d1 = 8` y `d2 = 8`:
 | `ubicacion` | `Ubicacion.values()[N % 8]` | `CENTRO_COMERCIAL` (índice 0) |
 
 Los valores anteriores se calculan en `App.main`; no están escritos a mano en
-la construcción de C6. En X02, C6 parte de `54.0 kW`, recibe cinco pasos de
-`13.0 kW` y el último se rechaza porque superaría `108.0 kW`; por eso termina
-en `106.0 kW`.
+la construcción de C6. En X02, C6 parte de `54.0 kW` e intenta aplicar nueve
+pasos de `13.0 kW`: cinco se aceptan y el sexto se rechaza porque superaría
+`108.0 kW`; por eso termina en `106.0 kW`.
 
 ## Estructura
 
