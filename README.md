@@ -1,7 +1,7 @@
 # Parcial 1 — VoltaCali S.A.S.
 
-**Estudiante:** Dilan Andres Angulo Caicedo  
-**Código:** APO22  
+**Estudiante:** Dilan Andres Angulo Caicedo
+**Código:** APO22
 **N (dos últimos dígitos de la cédula):** `88`
 
 Prototipo de consola en Java para modelar y analizar cargadores de vehículos
